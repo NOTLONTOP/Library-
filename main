@@ -34,7 +34,7 @@ function Library:Window(Name, Color, SizeY)
     Drag.Parent = ScreenGui
     Drag.Active = true
     Drag.Draggable = true
-    Drag.BackgroundColor3 = Color3.new(249, 233, 153)
+    Drag.BackgroundColor3 = Color3.new(0.0509804, 0.0509804, 0.0509804)
     Drag.BorderColor3 = Color3.new(0, 0, 0)
     Drag.Position = UDim2.new(0.355398446, 0, 0.184466019, 0)
     Drag.Size = UDim2.new(0, 513, 0, 27)
@@ -42,13 +42,13 @@ function Library:Window(Name, Color, SizeY)
     Main.Name = "Main"
     Main.Parent = Drag
     Main.Active = true
-    Main.BackgroundColor3 = Color3.new(249, 233, 153)
+    Main.BackgroundColor3 = Color3.new(0.0509804, 0.0509804, 0.0509804)
     Main.BorderColor3 = Color3.new(0, 0, 0)
     Main.Position = UDim2.new(-0.001, 0, 0.023466019, 0)
     Main.Size = UDim2.new(0, 513, 0, SizeY)
 
     Frame.Parent = Main
-    Frame.BackgroundColor3 = Color3.new(249, 233, 153)
+    Frame.BackgroundColor3 = Color3.new(0.0862745, 0.0862745, 0.0862745)
     Frame.BorderColor3 = Color3.new(0, 0, 0)
     Frame.Position = UDim2.new(0.0137524558, 0, 0.0470383018, 0)
     Frame.Size = UDim2.new(0, 499, 0, Main.Size.Y.Offset - 38)
